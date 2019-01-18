@@ -1,0 +1,75 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=31;
+	Taxlabels
+		Parrot_JX274018
+		Parrot_NC_016561
+		Rosss_goose_NC_005888
+		Sheldgoose_NC_005890
+		Duck_NC_001344
+		Snow_goose_NC_005950
+		Tinamou_NC_035210
+		Tibetan_frog_NC_030446
+		White_sucker_NC_027922
+		Astatotilapia_AMDV
+		Mexican_tetra_TMDV
+		Bluegill_NC_030445
+		Icefish_IMDV
+		Domestic_cat_MH307930
+		Tent_making_bat_NC_024445
+		Human_NC_003977
+		Capuchin_monkey_KY703886
+		Woolly_monkey_NC_028129
+		Long_fingered_bat_NC_020881
+		Horse_shoe_bat_NC_024444
+		Round_leafed_bat_NC_024443
+		Horseshoe_bat_KX513949
+		Bat_KY905325
+		Bat_MG600411
+		Bat_KY905328
+		Maxwells_duiker
+		Wood_chuck_NC_004107
+		Arctic_ground_squirrel_AGU2914
+		Ground_squirrel_NC_001484
+		Heron_NC_001486
+		Stork_AJ251934
+		;
+End;
+
+Begin trees;
+	Translate
+		1 Parrot_JX274018,
+		2 Parrot_NC_016561,
+		3 Rosss_goose_NC_005888,
+		4 Sheldgoose_NC_005890,
+		5 Duck_NC_001344,
+		6 Snow_goose_NC_005950,
+		7 Tinamou_NC_035210,
+		8 Tibetan_frog_NC_030446,
+		9 White_sucker_NC_027922,
+		10 Astatotilapia_AMDV,
+		11 Mexican_tetra_TMDV,
+		12 Bluegill_NC_030445,
+		13 Icefish_IMDV,
+		14 Domestic_cat_MH307930,
+		15 Tent_making_bat_NC_024445,
+		16 Human_NC_003977,
+		17 Capuchin_monkey_KY703886,
+		18 Woolly_monkey_NC_028129,
+		19 Long_fingered_bat_NC_020881,
+		20 Horse_shoe_bat_NC_024444,
+		21 Round_leafed_bat_NC_024443,
+		22 Horseshoe_bat_KX513949,
+		23 Bat_KY905325,
+		24 Bat_MG600411,
+		25 Bat_KY905328,
+		26 Maxwells_duiker,
+		27 Wood_chuck_NC_004107,
+		28 Arctic_ground_squirrel_AGU2914,
+		29 Ground_squirrel_NC_001484,
+		30 Heron_NC_001486,
+		31 Stork_AJ251934
+		;
+tree TREE1 = [&R] ((((10:0.40095007,11:0.41620795):0.39408197,(12:0.31182248,13:0.39360243):0.16567176):0.19713701,(14:0.29762035,(15:0.35894053,((16:0.0969503,(17:0.09282795,18:0.152148):0.05455344):0.25292997,((19:0.16566589,((20:0.0628884,21:0.04786438):0.0874081,(22:0.05469204,(23:0.05059807,(24:0.06861131,25:0.04984056):0.00792733):0.01348013):0.08169163):0.08114527):0.07395726,(26:0.2766457,(27:0.05506206,(28:0.06612045,29:0.09379021):0.02897426):0.27970258):0.02910041):0.08244933):0.04107309):0.07706596):0.50223616):0.3941906805,(9:0.9401884,(8:0.91373136,(7:0.12500205,((4:0.0633402,(5:0.02521973,6:0.03586932):0.0351228):0.02697878,(3:0.07567899,((1:0.09965841,2:0.08781862):0.07680277,(30:0.04191192,31:0.04170113):0.10759033):0.03587276):0.02048714):0.04031694):0.60842932):0.38260672):0.2037963395);
+End;
