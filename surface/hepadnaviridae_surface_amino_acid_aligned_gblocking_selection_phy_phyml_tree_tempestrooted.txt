@@ -1,0 +1,47 @@
+#NEXUS
+
+Begin taxa;
+	Dimensions ntax=17;
+	Taxlabels
+		Wood_chuck_NC_004107
+		Long_fingered_bat_NC_020881
+		Domestic_cat_MH307930
+		Maxwells_duiker
+		Human_NC_003977
+		Capuchin_monkey_KY703886
+		Woolly_monkey_NC_028129
+		Bluegill_NC_030445
+		Tent_making_bat_NC_024445
+		Horse_shoe_bat_NC_024444
+		Round_leafed_bat_NC_024443
+		Bat_MG600411
+		Horseshoe_bat_KX513949
+		Bat_KY905325
+		Bat_KY905328
+		Arctic_ground_squirrel_AGU2914
+		Ground_squirrel_NC_001484
+		;
+End;
+
+Begin trees;
+	Translate
+		1 Wood_chuck_NC_004107,
+		2 Long_fingered_bat_NC_020881,
+		3 Domestic_cat_MH307930,
+		4 Maxwells_duiker,
+		5 Human_NC_003977,
+		6 Capuchin_monkey_KY703886,
+		7 Woolly_monkey_NC_028129,
+		8 Bluegill_NC_030445,
+		9 Tent_making_bat_NC_024445,
+		10 Horse_shoe_bat_NC_024444,
+		11 Round_leafed_bat_NC_024443,
+		12 Bat_MG600411,
+		13 Horseshoe_bat_KX513949,
+		14 Bat_KY905325,
+		15 Bat_KY905328,
+		16 Arctic_ground_squirrel_AGU2914,
+		17 Ground_squirrel_NC_001484
+		;
+tree TREE1 = [&R] (8:0.9599568246875,(9:0.16197322,((5:0.03294333,(6:0.07002064,7:0.09769736):0.05876452):0.20826598,(4:0.25323919,(3:0.34353258,(((10:0.04366904,11:0.03681708):0.02210082,(12:0.01942609,(13:0.0359204,(14:0.07802111,15:0.01284335):0.01853113):0.01854923):0.06363826):0.11566035,(2:0.24380861,(1:0.05148596,(16:0.02926834,17:0.0161676):0.03284186):0.19941618):0.04124844):0.04609386):0.03447236):0.06511864):0.20359012):0.4062740953125);
+End;
